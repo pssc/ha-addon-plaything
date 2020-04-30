@@ -1,0 +1,19 @@
+{
+  "name": "Plaything",
+  "version": "2.7.3",
+  "slug": "plaything",
+  "description": "Test playtthing add-on!",
+  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+  "startup": "before",
+  "boot": "auto",
+  "timeout" : "120",
+  "map": ["config:rw", "ssl", "backup:rw" , "share:rw"],
+  "options": {
+     "S6_KILL_GRACETIME"    : 120000,
+     "S6_SERVICES_GRACETIME" : 120000
+  },
+  "schema": {},
+  "homeassistant_api": true,
+  "hassos_api": true,
+  "legacy": true
+}
