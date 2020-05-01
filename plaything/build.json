@@ -4,7 +4,7 @@
         "aarch64": "hassioaddons/base-aarch64:4.1.1",
         "amd64": "hassioaddons/base-amd64:4.1.1",
         "armhf": "hassioaddons/base-armhf:4.1.1",
-        "armv7": "hassioaddons/debian-base-armv7:latest",
+        "armv7": "hassioaddons/debian-base-armv7",
         "i386": "hassioaddons/base-i386:4.1.1"
     },
     "args": {}
