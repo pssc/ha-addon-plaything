@@ -1,6 +1,6 @@
 {
   "name": "Plaything",
-  "version": "2.7.3",
+  "version": "2.7.4",
   "slug": "plaything",
   "description": "Test playtthing add-on!",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
