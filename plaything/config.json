@@ -1,10 +1,10 @@
 {
   "name": "Plaything",
-  "version": "2.7.5",
+  "version": "2.7.8",
   "slug": "plaything",
   "description": "Test playtthing add-on!",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
-  "startup": "before",
+  "startup": "system",
   "boot": "auto",
   "timeout" : "120",
   "map": ["config:rw", "ssl", "backup:rw" , "share:rw"],
